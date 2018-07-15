@@ -6,7 +6,6 @@ class Hash
 				animals.push(animal)
 			end
 		end
-		}
 		return animals
   end
 end
