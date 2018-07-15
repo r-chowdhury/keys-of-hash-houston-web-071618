@@ -3,7 +3,7 @@ class Hash
 		animals = []
 		self.each { |animal, place|
 			if arguments.include?(place)
-				animals << animal
+				animals.push(animal)
 			end
 		}
 		return animals
